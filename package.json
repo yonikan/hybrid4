@@ -1,0 +1,14 @@
+{
+  "name": "yoni-hybrid",
+  "version": "3.0.0",
+  "description": "Yoni Hybrid Sass",
+  "dependencies": {
+    "gulp-concat": "^2.2.0",
+    "gulp-sass": "^2.0.4"
+  },
+  "devDependencies": {
+    "bower": "^1.3.3",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1"
+  }
+}

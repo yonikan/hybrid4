@@ -1,0 +1,40 @@
+
+
+// My imports
+@import "partials/vars";
+
+@import "pages/body";
+@import "pages/menu";
+@import "pages/header-footer";
+@import "pages/sections";
+@import "pages/media-queries";
+
+@import "partials/css";
+
+
+
+
+
+/***** Last Adjustments******/
+
+// nav links
+#nav-fixed li:after {
+    border-color: $site-turqize-dark;
+}
+
+.nav li.current:after {
+    bottom: -8px;
+    opacity: 1;
+}
+
+.nav li:after {
+    opacity: 0;
+    bottom: -8px;
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: -4px;
+    transition: all 0.2s;
+    border-bottom: 3px solid;
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Yoni Hybrid Sass</title>
+		<link href="./vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="./vendor/animate.css/animate.min.css" rel="stylesheet" media="screen">
+		<link href="./vendor/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" media="screen">
+		<link href="./bundle/main.css" rel="stylesheet" media="screen">
+	</head>
+	<body>
+
+		<!-- HEADER -->
+		<header id="header">
+			<div id="menu-bar" class="animated fadeIn">
+				<div class="container">
+					<div class="logo">
+						<img src="./img/logo-ko.png" alt="logo">
+					</div>
+					<nav id="nav" class="nav">
+						<ul class="nav-inner">
+							<li class=""><a href="#home">Home</a></li>
+							<li class=""><a href="#about">About</a></li>
+							<li class=""><a href="#features">How to Use It</a></li>
+							<li class=""><a href="#detailed">Screens</a></li>
+							<li class=""><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div id="menu-bar-fixed">
+				<div class="container">
+
+					<a class="logo scrollTo-header">
+						<!-- <img src="./img/logo-webcollage.svg" width="264" height="38"> -->
+						<img src="./img/logo-ko.png" alt="logo">
+					</a>
+
+					<nav id="nav-fixed" class="nav">
+						<a id="show-nav" title="Show navigation"><div></div></a>
+	    			<a id="hide-nav" title="Hide navigation"><div></div></a>
+						<ul id="nav-ul" class="nav-inner" style="display: block;">
+							<li class="current"><a href="#header">Home</a></li>
+							<li class=""><a href="#about">About</a></li>
+							<li class=""><a href="#features">How to Use It</a></li>
+							<li class=""><a href="#detailed">Screens</a></li>
+							<li class=""><a href="#contact">Contact</a></li>
+							<li id="off-nav"></li>
+						</ul>
+					</nav>
+
+				</div>
+			</div>
+		</header>
+
+		<!-- FEATURES -->
+		<section id="features">
+				<div class="container">
+					<div class="wow fadeInDown animated">
+						<h2>How to Use It</h2>
+						<p class="subtitle">We're here to help make your life easier.</p>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-4 col-md-4 col-lg-4 left  wow fadeInLeft animated">
+							<div class="row">
+								<div class="col-sm-12 col-md-9 col-lg-9">
+									<h4>Convenience Screens</h4>
+									<p>A fresh install comes with friendly development screens.</p>
+								</div>
+								<div class="col-sm-3 col-md-3 col-lg-3">
+									<div class="circle-icon-rspv"><div class="icon"></div></div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-sm-12 col-md-9 col-lg-9">
+									<h4>Component Examples</h4>
+									<p>Every component you write can have a live example for the Style Guide in the Component Examples screen.</p>
+								</div>
+								<div class="col-sm-3 col-md-3 col-lg-3">
+									<div class="circle-icon-rspv"><div class="icon"></div></div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-sm-12 col-md-9 col-lg-9">
+									<h4>Usage Examples</h4>
+									<p>3rd party libraries and functionality examples can be demonstrated on our Usage Examples screen.</p>
+								</div>
+								<div class="col-sm-3 col-md-3 col-lg-3">
+									<div class="circle-icon-rspv"><div class="icon"></div></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-4 col-sm-push-4 col-md-4 col-md-push-4 col-lg-4 col-lg-push-4 right  wow fadeInRight animated">
+							<div class="row">
+								<div class="col-sm-3 col-md-3 col-lg-3">
+									<div class="circle-icon-rspv"><div class="icon"></div></div>
+								</div>
+								<div class="col-sm-12 col-md-9 col-lg-9">
+									<h4>API Doc Testing</h4>
+									<p>API can be tricky unless you have a solid way of making sure your application is doing it right!  That's why we have the API Testing Screen.</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-sm-3 col-md-3 col-lg-3">
+									<div class="circle-icon-rspv"><div class="icon"></div></div>
+								</div>
+								<div class="col-sm-12 col-md-9 col-lg-9">
+									<h4>Theme</h4>
+									<p>Reusable styles are what keeps any application congruent. View colors and more on the Theme Screen.</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-sm-3 col-md-3 col-lg-3">
+									<div class="circle-icon-rspv"><div class="icon"></div></div>
+								</div>
+								<div class="col-sm-12 col-md-9 col-lg-9">
+									<h4>Device Info</h4>
+									<p>Having a single codebase means bugs can creep up on a specific device.  Help identify differences with the Device Info screen.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-sm-pull-4 col-md-4 col-md-pull-4 col-lg-4 col-lg-pull-4">
+							<img src="./img/iPhone-5C-red.png" class="img-responsive  wow fadeInUp animated" alt="iphone-photo">
+						</div>
+					</div>
+			</div>
+		</section>
+
+		<!-- DETAILED INFO -->
+		<section id="detailed">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-7 col-lg-7 wow fadeInLeft animated">
+						<h2>Battle Tested</h2>
+						<p class="subtitle">We use this to ship apps at <a href="https://infinite.red/">Infinite Red</a>!  Join us and let's ship together.</p>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-6 wow fadeInLeft animated">
+
+						<div class="row">
+							<div class="col-sm-2 col-md-2 col-lg-2">
+								<div class="icon"><i class="fa fa-camera-retro fa-lg"></i></div>
+							</div>
+							<div class="col-sm-10 col-md-10 col-lg-10">
+								<h4>Huge Time Savings</h4>
+								<p>
+									Applications share a lot of generatable code.  Ignite is here to lay the groundwork for getting
+									started.  We use our <a href="#">generators</a> to stub screens and functionality that every app needs!
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-2 col-md-2 col-lg-2">
+								<div class="icon"><i class="fa fa-camera-retro fa-lg"></i></div>
+							</div>
+							<div class="col-sm-10 col-md-10 col-lg-10">
+								<h4>Included Libs</h4>
+								<p>
+									Some of the most popular React Native libraries are already baked in and configured, including: Vector Icons,
+									Redux, Redux-Saga, Drawer Navigation, I18n, Reactotron, Animatable and more.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-6 img wow fadeInRight delay-sm animated">
+						<img src="./img/3iPhones.png" class="img-responsive" alt="">
+					</div>
+				</div>
+			</div>
+	  </section>
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<div class="container">
+				<div id="footer-content">
+					<h2><img src="./img/logo-ko.png" alt="logo"></h2>
+					<p id="social-links">
+						<a href="#" class="icon"><i class="fa fa-facebook-square"></i></a>
+						<a href="#" class="icon"><i class="fa fa-twitter-square"></i></a>
+						<a href="#" class="icon"><i class="fa fa-github-square"></i></a>
+					</p>
+					<p class="copyright">Copyright © yoni</p>
+				</div>
+			</div>
+		</footer>
+		<div id="static-footer"></div>
+
+		<script src="./vendor/jquery/dist/jquery.min.js"></script>
+		<script src="./vendor/jquery.nav.js"></script>
+		<script src="./vendor/wow/wow.js" type="text/javascript" ></script>
+		<script src="./bundle/main.js"></script>
+	</body>
+</html>
